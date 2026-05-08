@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">Hello World!</h1>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+  </body>
+</html>CTYPE html>
+<html>
+<head>
+  <title>Hello Africa - Learn African Languages</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+</head>
+<body>
+  <h1>Hello Africa</h1>
+  <div id="userPanel" style="display:none;">
+    Logged in as <span id="userEmail"></span> |
+    Points: <span id="userPoints">0</span> |
+    <button id="logoutBtn">Logout</button>
+  </div>
+
+  <div id="loginPanel">
+    <input type="email" id="email" placeholder="Email" /><br/>
+    <input type="password" id="password" placeholder="Password" /><br/>
+    <button id="loginBtn">Login</button>
+    <button id="signupBtn">Sign Up</button>
+  </div>
+
+  <div id="lessonPanel" style="display:none;">
+    <h2>Language Lesson</h2>
+    <p>Learn greetings in Swahili:</p>
+    <ul>
+      <li><b>Jambo</b> - Hello</li>
+      <li><b>Asante</b> - Thank you</li>
+      <li><b>Tafadhali</b> - Please</li>
+    </ul>
+    <button id="completeLessonBtn">Complete Lesson (+10 points)</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
